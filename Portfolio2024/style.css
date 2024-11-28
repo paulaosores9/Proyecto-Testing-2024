@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e1253;
+    color: white;
+    padding: 1em;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+header img {
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+#about {
+    padding: 2em;
+    background-color: #ffffff;
+    margin: 2em auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.member {
+    text-align: center;
+    max-width: 200px;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#proyecto {
+    padding: 2em;
+    background-color: #ffffff;
+    margin: 2em auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#proyecto ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2em;
+}
+
+#proyecto li {
+    margin: 0.5em 0;
+}
+
+footer {
+    background-color: #2e1253;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    padding-bottom: 3em;
+}
+
+body {
+    background-image: url('images/fondo1.webp');
+    background-size: cover;
+}
